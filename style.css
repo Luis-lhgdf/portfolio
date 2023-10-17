@@ -1,0 +1,81 @@
+/* Defina a fonte genérica no início do seu arquivo CSS para evitar repetições */
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+/* Melhore as configurações do corpo (body) */
+body {
+    margin: 0;
+    background-color: #03010e;
+    box-sizing: border-box;
+    position: relative;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Estilize a classe 'cabecalho' */
+.cabecalho {
+    position: relative;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 2vw;
+    gap: 45px;
+    align-items: center;
+}
+
+/* Melhore o estilo da foto de perfil */
+.foto-perfil {
+    margin-right: 1rem;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
+
+.foto-perfil img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Estilize a classe 'nome-perfil' */
+.nome-perfil {
+    position: absolute;
+    left: 14rem;
+}
+
+
+
+/* Estilize a classe 'menu-cabecalho' */
+.menu-cabecalho {
+    position: absolute;
+    right: 0;
+}
+
+.menu-cabecalho a {
+    margin-right: 5rem; /* Reduzi a margem para um visual mais compacto */
+    text-decoration: none;
+    color: white;
+}
+
+.menu-cabecalho a:hover {
+    color: rgb(162, 162, 162);
+}
+
+/* Melhore a classe 'secao' */
+.secao {
+    padding-top: 130px;
+    padding-bottom: 100px;
+    background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-01.png);
+    background-position: 50%0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
