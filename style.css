@@ -1,81 +1,279 @@
-/* Defina a fonte genérica no início do seu arquivo CSS para evitar repetições */
+/* Global */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-    font-family: sans-serif;
+  font-size: 62.5%;
 }
 
-/* Melhore as configurações do corpo (body) */
 body {
-    margin: 0;
-    background-color: #03010e;
-    box-sizing: border-box;
-    position: relative;
-    line-height: 1.5;
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: white;
-    font-family: 'Source Sans Pro', sans-serif;
-    overflow-x: hidden;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.4;
+  background-color: #f4f5f7;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #333;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: 900;
 }
 
-/* Estilize a classe 'cabecalho' */
-.cabecalho {
-    position: relative;
-    font-family: "Montserrat",sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 2vw;
-    gap: 45px;
-    align-items: center;
+p {
+  text-transform: none;
+  color: #333;
+  font-size: 2.2rem;
+  text-align: center;
+  width: 100%;
+  line-height: 1.6;
+  font-weight: 200;
 }
 
-/* Melhore o estilo da foto de perfil */
-.foto-perfil {
-    margin-right: 1rem;
-    border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
-}
-
-.foto-perfil img {
-    max-width: 100%;
-    border-radius: 50%;
-}
-
-/* Estilize a classe 'nome-perfil' */
-.nome-perfil {
-    position: absolute;
-    left: 14rem;
-}
-
-
-
-/* Estilize a classe 'menu-cabecalho' */
-.menu-cabecalho {
-    position: absolute;
-    right: 0;
-}
-
-.menu-cabecalho a {
-    margin-right: 5rem; /* Reduzi a margem para um visual mais compacto */
-    text-decoration: none;
-    color: white;
-}
-
-.menu-cabecalho a:hover {
-    color: rgb(162, 162, 162);
-}
-
-/* Melhore a classe 'secao' */
 .secao {
-    padding-top: 130px;
-    padding-bottom: 100px;
-    background-image: url(https://www.hashtagtreinamentos.com/wp-content/uploads/2022/06/BACKGROUN-banner-01.png);
-    background-position: 50%0;
-    background-size: cover;
-    background-repeat: no-repeat;
+  padding: 7.63rem 2rem;
 }
 
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.botao {
+  position: absolute;
+  padding: 1.5rem 8rem;
+  font-size: 2rem;
+  background: #7843e9;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+  list-style: none;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+  display: flex; /* Adicione esta linha para criar um contêiner flexível */
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background-color: white;
+  padding: 1.6rem 3.12rem;
+  box-shadow: 0 0.21rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho span {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.cabecalho img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.nome-perfil {
+  position: absolute;
+  left: 10rem;
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  margin: 0; /* Adicione isso para remover a margem padrão */
+}
+
+.item-lista-cabecalho {
+  margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+.item-lista-cabecalho {
+  color: #333;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: color 0.3s;
+}
+
+.item-lista-cabecalho:hover,
+.item-lista-cabecalho:active {
+  color: #7843e9
+}
+
+/* INICIO */
+
+.inicio {
+  position: relative;
+}
+.social-inicio {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  padding: 0.5rem;
+}
+
+.social-inicio img {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  display: block;
+  box-sizing: content-box;
+  width: 3rem;
+}
+
+.apresentacao h1 {
+  width: 50%; /* Você pode ajustar a largura conforme necessário */
+  margin: 0 auto;
+}
+
+/* FIXADO */
+.logo-whatsapp {
+  position: fixed;
+  right: 1rem;
+  bottom: 0.8rem;
+  width: 8.5rem;
+}
+
+.logo-whatsapp:hover {
+  transform: translate(0.5rem, 0.5rem);
+}
+
+img {
+  width: 5rem;
+}
+
+/* inicio */
+.inicio {
+  height: 600px;
+  background-image: linear-gradient(
+    80deg,
+    rgb(241, 241, 241),
+    rgb(214, 214, 214),
+    rgb(102, 102, 102)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.titulo h2 {
+  display: block;
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 3.5rem;
+  position: relative;
+  color: #111;
+}
+
+.titulo p {
+  display: block;
+  text-align: center;
+  color: #555;
+  font-size: 2rem;
+  font-weight: 500;
+  max-width: 80rem;
+  margin: auto;
+  line-height: 1.6;
+  margin-bottom: 4rem;
+}
+
+.titulo2 {
+  display: inline-block;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.titulo2 h3 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+}
+
+p {
+  display: block;
+  text-align: left;
+  color: #555;
+  font-size: 2rem;
+  font-weight: 500;
+  max-width: 80rem;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.habilidades {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.6rem;
+  background: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  font-weight: 600;
+  color: #666;
+}
+
+.projeto img {
+  width: 100%;
+}
+.botao-formulario {
+  cursor: pointer;
+}
+
+.social-inicio :hover {
+  background-color: #b796fd62;
+}
+
+.social-inicio a {
+  width: 100%;
+  display: block;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.rodape{
+  background-color: #111111;
+}
+
+.rodape h2{
+  display: inline-block;
+  color: rgb(252, 252, 252);
+  text-align: left;
+  
+  
+}
+
+
+.rodape p{
+  display: block;
+  text-align: left;
+}

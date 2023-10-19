@@ -1,46 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Luis Gomes</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luis Henrique | Portfolio</title>
+
     <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <a href="#inicio"><img src="ft-perfil.jpg" alt="foto perfil luis" /></a>
 
-</head>
+      <a href="#inicio" class="nome-perfil item-lista-cabecalho"><span>LUIS HENRIQUE GOMES DA FONSECA</span></a>
 
-<body>
-    <header>
-        <nav class="cabecalho">
-            <div class="foto-perfil">
-                <a href="">
-                    <img src="ft-perfil.jpg" alt="">
-                </a>
-            </div>
-            <span class="nome-perfil"><p>LUIS HENRIQUE GOMES DA FONSECA</p></span>
-            <div class="menu-cabecalho">
-                <a href="">INICIO</a>
-                <a href="">SOBRE</a>
-                <a href="">PROJETOS</a>
-                <a href="">CONTATO</a>
-            </div>
-        </nav>
-
+      <nav>
+        <a class="item-lista-cabecalho" href="#inicio">INICIO</a>
+        <a class="item-lista-cabecalho" href="#sobre">SOBRE</a>
+        <a class="item-lista-cabecalho" href="#projetos">PROJETOS</a>
+        <a class="item-lista-cabecalho" href="#contato">CONTATO</a>
+      </nav>
     </header>
 
     <main>
-        <section class="secao home">
-            <div class="bloco-redesocial"></div>
-            <h1>OLÁ, EU SOU O LUIS HENRIQUE</h1>
-            <p>Um desenvolvedor Web focado em Frontend, construindo o Frontend de sites e aplicativos Web que leva ao sucesso do produto geral</p>
-            <div class="botao"></div>
+      <section id="inicio" class="secao inicio">
+        <div class="container">
+          <div class="social-inicio">
+            <a href=""
+              ><img
+                src="https://d33wubrfki0l68.cloudfront.net/d8e6e1e636531e28274a1b8b6d947b817f6145bd/d42d3/assets/svg/linkedin-dark.svg"
+                alt=""
+            /></a>
+            <a href=""
+              ><img
+                src="https://d33wubrfki0l68.cloudfront.net/38469cf88d038b6ba3322c9fcb93a8f7167df4b9/cb0b9/assets/svg/github-dark.svg"
+                alt=""
+            /></a>
+            <a href=""><img src="whatsapp.png" alt="" /></a>
+          </div>
+          <div class="apresentacao">
+            <h1>OLÁ, EU SOU O <br /><span>LUIS HENRIQUE</span></h1>
+            <p>
+              Um desenvolvedor Web focado em Frontend, construindo o Frontend de
+              sites e aplicativos Web que leva ao sucesso do produto gera
+            </p>
+            <a class="botao" href="#projetos">PROJETOS</a>
+          </div>
+        </div>
+      </section>
 
-        </section>
+      <section id="sobre" class="secao sobre">
+        <div class="container">
+          <div class="titulo">
+            <h2>SOBRE MIM</h2>
+            <p>
+              Aqui você encontrará mais informações sobre mim, o que faço e
+              minhas habilidades atuais principalmente em termos de programação
+              e tecnologia
+            </p>
+          </div>
 
+          <div class="titulo2">
+            <h3>Quem sou eu</h3>
+            <p>
+              Sou um desenvolvedor Web Frontend construindo o Front-end de sites
+              e aplicativos Web que leva ao sucesso do produto geral. Confira
+              alguns dos meus trabalhos na seção Projetos . Também gosto de
+              compartilhar conteúdo relacionado ao que aprendi ao longo dos anos
+              em Desenvolvimento Web para que possa ajudar outras pessoas da
+              Comunidade de Desenvolvimento. Sinta-se à vontade para se conectar
+              ou me seguir no Linkedin , onde posto conteúdo útil relacionado a
+              desenvolvimento e programação web Estou aberto a oportunidades de
+              trabalho onde possa contribuir, aprender e crescer. Se tiver uma
+              boa oportunidade que corresponda às minhas competências e
+              experiência, não hesite em contactar- me.
+            </p>
+          </div>
+
+          <div class="titulo2">
+            <h3>Minhas habilidades</h3>
+            <div class="habilidades">HTML</div>
+            <div class="habilidades">CSS</div>
+            <div class="habilidades">Desing responsivo</div>
+            <div class="habilidades">Python</div>
+            <div class="habilidades">SQL</div>
+            <div class="habilidades">GIT</div>
+            <div class="habilidades">GitHub</div>
+          </div>
+
+          <a class="botao" href="#contato">CONTATO</a>
+        </div>
+      </section>
+
+      <section id="projetos" class="secao projetos">
+        <div class="container">
+          <div class="titulo">
+            <h2>PROJETOS</h2>
+            <p>
+              Aqui você encontrará alguns dos projetos pessoais e de clientes
+              que criei, cada projeto contendo seu próprio estudo de caso
+            </p>
+          </div>
+          <div class="projeto">
+            <img
+              src="https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg"
+              alt=""
+            />
+            <div class="titulo2">
+              <h3>BOT GEOCAL</h3>
+              <p>
+                Dopefolio is a successful Open-Source project that I created
+                which have been featured on some of the biggest tech sites like
+                CSS-Tricks, Hostinger, etc & used by thousands of developers
+                globally
+              </p>
+              <a class="botao" href="">ACESSAR PROJETO</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="secao contato">
+        <div class="container">
+          <div class="titulo">
+            <h2>CONTATO</h2>
+            <p>
+              Sinta-se à vontade para entrar em contato comigo enviando o
+              formulário abaixo e entrarei em contato com você o mais breve
+              possível
+            </p>
+          </div>
+          <form action="" class="form-newsletter">
+
+            <div>
+              <label for="name">Nome</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="*Seu primeiro nome"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="name">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="*Seu melhor e-mail"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="name">Mensagem</label>
+              <input
+                type="text"
+                id="text"
+                name="text"
+                placeholder="*Escreva sua mensagem aqui"
+                required
+              />
+            </div>
+
+
+
+            <button type="submit" class="botao botao-formulario">Enviar</button>
+          </form>
+        </div>
+      </section>
     </main>
 
-    <footer>
-    </footer>
-    
-</body>
-</html>
+    <!-- Rodapé -->
+    <footer class="secao rodape">
+      <div class="container">
+        <div class="titulo">
+          <h2>LUIS HENRIQUE</h2>
+          <p>
+            Um desenvolvedor Web focado em Frontend, construindo o Frontend de
+            sites e aplicativos Web que leva ao sucesso do produto geral
+          </p>
+        </div>
+        <div class="social">
+          <h2>SOCIAL</h2>
+          <div class="social-rodape">
+            <a href=""
+              ><img
+                src="https://d33wubrfki0l68.cloudfront.net/d8e6e1e636531e28274a1b8b6d947b817f6145bd/d42d3/assets/svg/linkedin-dark.svg"
+                alt=""
+            /></a>
+            <a href=""
+              ><img
+                src="https://d33wubrfki0l68.cloudfront.net/38469cf88d038b6ba3322c9fcb93a8f7167df4b9/cb0b9/assets/svg/github-dark.svg"
+                alt=""
+            /></a>
+            <a href=""><img src="whatsapp.png" alt="" /></a>
+          </div>
+        </div>
 
+        <hr />
+
+        <p>© 2023 Luis Henrique. Todos os Direitos Reservados</p>
+
+        <a
+          href="https://api.whatsapp.com/send?phone=5511945481860&text=Ol%C3%A1%2C%20gostaria%20de%20tirar%20uma%20d%C3%BAvida%20%20sobre%20o%20curso%20online"
+          class="logo-whatsapp"
+          ><img
+            src="https://www.hashtagtreinamentos.com/wp-content/uploads/2023/06/whatsapp-logo-2.png"
+            alt="Logo do WhatsApp"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
