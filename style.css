@@ -182,10 +182,7 @@ ul {
 
 .logo-whatsapp:hover {
   transform: translatey(-0.5rem);
-  ;
 }
-
-
 
 img {
   width: 5rem;
@@ -281,7 +278,10 @@ img {
 
 /* Seção "contato" */
 .contato {
-  background-color: #434343;
+  height: 1000px;
+  background-image: url(horizont.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Rodapé Styles */
@@ -303,7 +303,7 @@ img {
 .formulario {
   position: relative;
   display: block;
-  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  box-shadow: rgba(255, 255, 255, 0.828) 0 7px 29px 0;
   background: #fff;
   padding: 4rem;
   padding-bottom: 15rem;
