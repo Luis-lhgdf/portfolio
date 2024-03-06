@@ -328,7 +328,7 @@ textarea {
       rgba(119, 118, 118, 0.8),
       rgba(255, 255, 255, 0)
     ),
-    url(../../assets/png/profile2.png);
+    url(../assets/png/profile2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -438,7 +438,7 @@ textarea {
       rgba(66, 65, 65, 0.8),
       rgba(0, 0, 0, 0.575)
     ),
-    url(../../assets/png/horizont.jpeg);
+    url(../assets/png/horizont.jpeg);
   background-size: cover;
   background-position: center;
 }
