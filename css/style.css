@@ -325,12 +325,14 @@ textarea {
 .about {
   background: linear-gradient(
       to right,
-      rgba(119, 118, 118, 0.8),
-      rgba(255, 255, 255, 0)
+      rgba(250, 249, 249, 0.89),
+      rgba(163, 163, 163, 0)
     ),
     url(../assets/png/profile2.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center right;
+
 }
 .about__content {
   display: grid;
