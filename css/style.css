@@ -568,6 +568,12 @@ textarea {
 
 }
 
+.project4{
+  color: #1A28F9;
+  background: linear-gradient(to right, #D78A1E, #D78A1E);
+
+}
+
 }
 @media only screen and (max-width: 37.5em) {
   .project-cs-hero {
