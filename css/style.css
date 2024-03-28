@@ -324,11 +324,7 @@ textarea {
 
 .about {
   color:white;
-  background:
-    url(../assets/png/profile2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
+  background: rgb(27, 27, 27);
 
 }
 .about__content {
