@@ -323,15 +323,12 @@ textarea {
 }
 
 .about {
-  background: linear-gradient(
-      to right,
-      rgba(250, 249, 249, 0.89),
-      rgba(163, 163, 163, 0)
-    ),
+  color:white;
+  background:
     url(../assets/png/profile2.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center right;
+  background-size: cover;
+  background-position: right;
 
 }
 .about__content {
