@@ -557,8 +557,7 @@ textarea {
 
 .project3{
   color: #ff0707;
-  background: linear-gradient(to right, #a8a8a8, #a8a8a8);
-
+  background: linear-gradient(to right, #4c0606, #4a0000);
 }
 
 .project4{
@@ -567,7 +566,7 @@ textarea {
 
 }
 
-}
+
 @media only screen and (max-width: 37.5em) {
   .project-cs-hero {
     height: unset;
