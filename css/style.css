@@ -546,23 +546,29 @@ textarea {
 
 .project1 {
   color: #d9b46e;
-  background: linear-gradient(to right, #558fad, #558fad);
+  background: linear-gradient(to right, #558fad, #214252);
 }
 
 .project2 {
   color: #d56a02;
-  background: linear-gradient(to right, #1d053b, #1d053b);
+  background: linear-gradient(to right, #1d053b, #0d041a);
 }
 
 
 .project3{
-  color: #ff0707;
-  background: linear-gradient(to right, #4c0606, #4a0000);
+  color: #ffffff;
+  background: linear-gradient(to right, #470b12, #5c0303);
 }
 
 .project4{
   color: #1A28F9;
-  background: linear-gradient(to right, #D78A1E, #D78A1E);
+  background: linear-gradient(to right, #D78A1E, #744d16);
+
+}
+
+.project5{
+  color: #ffffff;
+  background: linear-gradient(to right, #2B2B2B, #242424);
 
 }
 
