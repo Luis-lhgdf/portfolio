@@ -323,9 +323,8 @@ textarea {
 }
 
 .about {
-  color:white;
+  color: white;
   background: rgb(27, 27, 27);
-
 }
 .about__content {
   display: grid;
@@ -554,24 +553,20 @@ textarea {
   background: linear-gradient(to right, #1d053b, #0d041a);
 }
 
-
-.project3{
+.project3 {
   color: #ffffff;
   background: linear-gradient(to right, #470b12, #5c0303);
 }
 
-.project4{
-  color: #1A28F9;
-  background: linear-gradient(to right, #D78A1E, #744d16);
-
+.project4 {
+  color: #1a28f9;
+  background: linear-gradient(to right, #d78a1e, #744d16);
 }
 
-.project5{
+.project5 {
   color: #ffffff;
-  background: linear-gradient(to right, #2B2B2B, #242424);
-
+  background: linear-gradient(to right, #2b2b2b, #242424);
 }
-
 
 @media only screen and (max-width: 37.5em) {
   .project-cs-hero {
